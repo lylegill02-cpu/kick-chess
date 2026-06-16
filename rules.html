@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KICK CHESS Rules v1.0</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'IBM Plex Mono', monospace; background: #0a0a0b; color: #e4e4e7; }
+    .display { font-family: 'Oswald', sans-serif; }
+    .prose h2 { font-family: 'Oswald', sans-serif; font-size: 1.35rem; margin-top: 2rem; color: #fafafa; }
+    .prose p, .prose li { font-size: 0.85rem; line-height: 1.65; color: #a1a1aa; }
+    .prose table { width: 100%; font-size: 0.75rem; border-collapse: collapse; margin: 1rem 0; }
+    .prose th, .prose td { border: 1px solid #3f3f46; padding: 0.5rem; }
+    .prose th { background: #18181b; }
+  </style>
+</head>
+<body>
+  <header class="border-b border-zinc-800 px-4 py-5 max-w-3xl mx-auto flex justify-between items-center">
+    <div>
+      <p class="text-[10px] uppercase tracking-[0.25em] text-zinc-500">v1.0</p>
+      <h1 class="display text-2xl font-bold">Kick Chess Rules</h1>
+    </div>
+    <a href="index.html" class="text-xs text-zinc-500 hover:text-zinc-300">← Home</a>
+  </header>
+  <main class="max-w-3xl mx-auto px-4 py-8 prose">
+    <p>Kickboxing rounds linked to chess — ring performance modifies board time and conditions.</p>
+    <h2>Ring → Board Spectrum</h2>
+    <table>
+      <tr><th>Range</th><th>State</th><th>Board Effect</th></tr>
+      <tr><td>0–29</td><td>Ring-heavy</td><td>−30 sec</td></tr>
+      <tr><td>45–55</td><td>Neutral</td><td>Standard</td></tr>
+      <tr><td>70–100</td><td>Board-ready</td><td>+10 sec</td></tr>
+    </table>
+    <h2>Recovery Tiers</h2>
+    <p>Light / Medium / Heavy — same graduated penalty model as <a href="https://lylegill02-cpu.github.io/roll-chess/rules.html" class="text-blue-400">Roll Chess</a>, applied after poor ring exchanges.</p>
+    <h2>Trainer</h2>
+    <p><a href="trainer.html" class="text-red-400">Open Kick Chess Trainer v0.1</a></p>
+  </main>
+  <footer class="text-center py-8 text-xs text-zinc-600 border-t border-zinc-900">
+    <a href="https://github.com/lylegill02-cpu/kick-chess" class="hover:text-zinc-400">GitHub</a>
+  </footer>
+</body>
+</html>

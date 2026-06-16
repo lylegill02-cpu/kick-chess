@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KICK CHESS — Ring → Board</title>
+  <meta name="description" content="Hybrid kickboxing + chess training. Ring rounds linked to board decisions." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root { --ring: #dc2626; --board: #1d4ed8; --ink: #09090b; }
+    body { font-family: 'IBM Plex Mono', monospace; background: var(--ink); color: #fafafa; }
+    .bebas { font-family: 'Bebas Neue', sans-serif; letter-spacing: 0.06em; }
+    .hero-grid {
+      background:
+        linear-gradient(135deg, rgba(220,38,38,0.14) 0%, transparent 42%),
+        linear-gradient(225deg, rgba(29,78,216,0.14) 0%, transparent 45%),
+        radial-gradient(circle at 50% 120%, rgba(255,255,255,0.04), transparent 55%);
+    }
+    .split-line { background: linear-gradient(90deg, var(--ring), #71717a 50%, var(--board)); height: 3px; }
+    .card { background: rgba(24,24,27,0.7); border: 1px solid #27272a; backdrop-filter: blur(8px); }
+    .ring-accent { color: var(--ring); }
+    .board-accent { color: #60a5fa; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+  <div class="hero-grid flex-1">
+    <header class="max-w-5xl mx-auto px-5 pt-10 pb-4 flex justify-between items-center">
+      <p class="text-[10px] uppercase tracking-[0.3em] text-zinc-500">Kickboxing Hybrid · v0.1</p>
+      <a href="https://github.com/lylegill02-cpu/kick-chess" class="text-xs text-zinc-500 hover:text-zinc-300">GitHub</a>
+    </header>
+    <section class="max-w-5xl mx-auto px-5 pt-6 pb-16 text-center">
+      <h1 class="bebas text-6xl sm:text-8xl md:text-9xl leading-none">KICK<br><span class="text-zinc-500">CHESS</span></h1>
+      <p class="mt-6 text-sm sm:text-base text-zinc-400 max-w-xl mx-auto leading-relaxed">
+        Sparring rounds tax or sharpen your mind.
+        Train the link between <span class="ring-accent">ring decisions</span> and
+        <span class="board-accent">board clarity</span>.
+      </p>
+      <div class="split-line max-w-md mx-auto mt-10 mb-10"></div>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="trainer.html" class="bebas text-xl bg-white text-zinc-900 px-10 py-4 hover:bg-zinc-200 transition">Open Trainer</a>
+        <a href="rules.html" class="text-sm border border-zinc-700 px-8 py-4 hover:border-zinc-500 transition">Rules</a>
+      </div>
+      <p class="mt-8 text-xs text-zinc-600"><a href="https://lylegill02-cpu.github.io/roll-chess/" class="hover:text-zinc-400">Roll Chess</a> — BJJ variation</p>
+    </section>
+    <section class="max-w-5xl mx-auto px-5 pb-20 grid md:grid-cols-3 gap-4">
+      <article class="card p-6 text-left">
+        <p class="text-[10px] uppercase tracking-widest ring-accent mb-3">Ring</p>
+        <h2 class="bebas text-2xl mb-2">12 Scenarios</h2>
+        <p class="text-xs text-zinc-500 leading-relaxed">Range, counters, footwork, pace — realistic kickboxing decisions under pressure.</p>
+      </article>
+      <article class="card p-6 text-left">
+        <p class="text-[10px] uppercase tracking-widest text-zinc-400 mb-3">Spectrum</p>
+        <h2 class="bebas text-2xl mb-2">Ring → Board</h2>
+        <p class="text-xs text-zinc-500 leading-relaxed">Sharp ring work buys board time. Sloppy exchanges tax it.</p>
+      </article>
+      <article class="card p-6 text-left">
+        <p class="text-[10px] uppercase tracking-widest board-accent mb-3">Board</p>
+        <h2 class="bebas text-2xl mb-2">Recovery Mode</h2>
+        <p class="text-xs text-zinc-500 leading-relaxed">Simulate competition — timed tactics after ring fatigue.</p>
+      </article>
+    </section>
+  </div>
+  <footer class="text-center py-8 text-xs text-zinc-600 border-t border-zinc-900">
+    KICK CHESS v0.1 · Ring → Board<br>
+    <a href="https://github.com/lylegill02-cpu/kick-chess" class="hover:text-zinc-400">github.com/lylegill02-cpu/kick-chess</a>
+  </footer>
+</body>
+</html>
