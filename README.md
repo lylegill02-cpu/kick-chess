@@ -9,7 +9,7 @@ KICK CHESS is the kickboxing variation of the hybrid training system — sparrin
 | Page | GitHub Pages | Inkwell |
 |------|--------------|---------|
 | **Landing** | [lylegill02-cpu.github.io/kick-chess](https://lylegill02-cpu.github.io/kick-chess) | [inkwell.wiki/kick-chess](https://inkwell.wiki/kick-chess) |
-| **Trainer v0.1** | […/trainer.html](https://lylegill02-cpu.github.io/kick-chess/trainer.html) | [inkwell.wiki/kick-chess-trainer](https://inkwell.wiki/kick-chess-trainer) |
+| **Trainer v0.2** | […/trainer.html](https://lylegill02-cpu.github.io/kick-chess/trainer.html) | [inkwell.wiki/kick-chess-trainer](https://inkwell.wiki/kick-chess-trainer) |
 | **Rules v1.0** | […/rules.html](https://lylegill02-cpu.github.io/kick-chess/rules.html) | [inkwell.wiki/kick-chess-rules](https://inkwell.wiki/kick-chess-rules) |
 
 ## What is it?
@@ -17,9 +17,11 @@ KICK CHESS is the kickboxing variation of the hybrid training system — sparrin
 - **Ring** = Kickboxing round performance and decision quality
 - **Board** = Mental recovery and tactical decisions under fatigue
 
-## Features (v0.1)
+## Features (v0.2)
 
 - 12 realistic kickboxing scenarios
+- Ring-round timer with bail-out penalty curve
+- v1.2 clock engine (RMS-based board time)
 - Tiered Recovery Mode (Light / Medium / Heavy)
 - Live Ring → Board spectrum
 - End-of-session summary
