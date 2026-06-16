@@ -10,7 +10,7 @@ KICK CHESS is the kickboxing variation of the hybrid training system — sparrin
 |------|--------------|---------|
 | **Landing** | [lylegill02-cpu.github.io/kick-chess](https://lylegill02-cpu.github.io/kick-chess) | [inkwell.wiki/kick-chess](https://inkwell.wiki/kick-chess) |
 | **Trainer v0.2** | […/trainer.html](https://lylegill02-cpu.github.io/kick-chess/trainer.html) | [inkwell.wiki/kick-chess-trainer](https://inkwell.wiki/kick-chess-trainer) |
-| **Rules v1.0** | […/rules.html](https://lylegill02-cpu.github.io/kick-chess/rules.html) | [inkwell.wiki/kick-chess-rules](https://inkwell.wiki/kick-chess-rules) |
+| **Rules v1.2** | […/rules.html](https://lylegill02-cpu.github.io/kick-chess/rules.html) | [inkwell.wiki/kick-chess-rules](https://inkwell.wiki/kick-chess-rules) |
 
 ## What is it?
 
